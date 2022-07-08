@@ -1,4 +1,13 @@
-Verify Git installation
+# Verify Git installation
+
+Impressions: 3/5
+
+Note:
+
+ - Maybe, adding explanation of how to open a console would help newbies to not lost.
+ - Missing smooth transition at the end of the chapter
+
+---
 
 Jessie and I expect you to be in the folder where the `tennis-ball.txt` file lives. Then, you need to open a console inside this folder and verify that Git was installed correctly.
 

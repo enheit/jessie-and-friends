@@ -1,6 +1,14 @@
-Acquaintance with Jessie and Boopi
+# Acquaintance with Jessie and Boopi
 
-Hey, this is Jessie. Jessie, say hi to our readers. 
+Impression: 2.5/5
+
+Notes:
+
+- There is a significant jump betwween sentences. Make it more smooth.
+
+---
+
+Hey, this is Jessie. Jessie, say hi to our reader. 
 
 [An image of barking Jessie] 
 

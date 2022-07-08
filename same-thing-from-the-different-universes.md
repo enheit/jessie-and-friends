@@ -1,10 +1,18 @@
-Same things from different universes
+# Same things from different universes
 
-In the previous chapter, we created two toys for Jessie's friends. Each of these toys was created and committed to a separate branch. In order for commits with instructions for toys to appear in the `master` branch, we had to merge each branch into `master`. So, Boopi was able to create toys for these cuties.
+Impressions: 4.9/5
 
-But what if we could create instructions for the same toy in parallel and merge them together? What would happen? What would happen if things from two universes appeared in one? Let's figure it out!
+Note:
 
-To do this experiment, we will create an apple for Boopi in two separate branches.
+ - Everything look ok
+
+---
+
+In the previous chapter, we created two toys for Jessie's friends. Each of these toys was created and committed to a separate branch. In order for these toys to appear in the `master` branch, we had to merge each branch into `master`. So, Boopi was able to create toys for these cuties.
+
+But what if we could create instructions for the same toy in parallel and merge them together? What would happen? What would happen if two same things from different universes appeared in one? Do they merge at all? Let's figure it out!
+
+To do this experiment, we will need to create an apple in two separate branches.
 
 Woof-woof!
 
@@ -14,10 +22,14 @@ I know Jessie, Boopi doesn't like apples. But let's create them anyway.
 
 Firstly off, we have to be on the `master` branch. Secondly, we will create a new branch called `red-apple` and jump into it.
 
+Starting on the `master` branch execute the following commands
+
 ```
 git branch red-apple
 git checkout red-apple
 ```
+
+Having done this, we created a new branch and moved into it.
 
 Let's create a file and call it `apple.txt`
 
@@ -29,9 +41,11 @@ Step 1. Create a red apple
 
 Save the file and close it.
 
-At this moment, we should be on the `red-apple` branch with one new (untracked) file called `apple.txt`.
+At this moment, we should be on the `red-apple` branch with one new (untracked) file called `apple.txt`. You can verify it on your own by running `git status`. We will skip this optional step and continue
 
 Let's commit `apple.txt` file with instructions inside of it
+
+Inside the console write the following 
 
 ```
 git add apple.txt
@@ -40,7 +54,7 @@ git commit -m "Add file with instructions of how to create a red apple"
 
 Good. At this point, we created a file with instructions and committed it to the `red-apple` branch.
 
-Let's switch to the `master` branch and do the same things.
+Let's switch back to the `master` branch and do the same things.
 
 ```
 git checkout master
@@ -58,21 +72,25 @@ Woof-woof! 
 
 Yes, Jessie, I know. We have just created an apple in a different color than the one we created in the `red-apple` branch. But I will explain it later. For now, let's continue and commit the file.
 
-Let's create a commit on the `master` branch and add an `apple.txt` file to it.
+Let's create a commit on the `master` branch with an `apple.txt` file inside of it.
+
+To achieve this we will execute the following commands
 
 ```
 git add apple.txt
 git commit -m "Add file with instructions of how to create a green apple"
 ```
 
-We done! Now we should have a new commit on the `master` branch. Before we merge `red-apple` branch into it, let's try to predict what might happen:
+Well done! 
 
-1. The `apple.txt` file from `red-apple` branch will replace `apple.txt` file in the `master` branch (current).
-2. The `apple.txt` file on the `master` branch will not be replaced and remains untouched.
-3. The `apple.txt` file will contain instructions from both branches (e.g. they will be merged)
-4. Black hole
+Now we should have another commit on the `master` branch. We have almost reached the climax of our experiment, but before we merge `red-apple` branch into it, let's try to predict what might happen:
 
-None of the above options are correct. Let's figure out what will happen
+  a) The `apple.txt` file from `red-apple` branch will replace `apple.txt` file in the `master` branch (current).   
+  b) The `apple.txt` file on the `master` branch will not be replaced and remains untouched.   
+  c) The `apple.txt` file will contain instructions from both branches (e.g. they will be merged).  
+  d) Black hole.  
+
+None of the above options are correct. Let's figure out what will actually happen
 
 Woof-woof! I know Jessie, you know what will happen, but let our reader go through this on his own.
 
@@ -98,7 +116,7 @@ You may notice the word in capital letters - `CONFLICT`. It is exactly what happ
 
 Yes, Jessie? Woof-woof! Alright!
 
-If you run the `git status` command and investigate the result message, you may notice that Git says that you have "unmerged paths", and under "Unmerged paths:" message, there is an `apple.txt` file marked as "both added". 
+If you run the `git status` command and investigate the result message, you may notice that Git says that you have "unmerged paths", and under "Unmerged paths:" title, you can see the message - "both added: apple.txt". 
 
 ```
 On branch master
@@ -113,7 +131,7 @@ both added: apple.txt
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
-It is exactly what happened. Two branches were trying to add an `apple.txt` file, but there are conflicts inside this file. If we open the file with your favorite editor, you may notice that the file contains something more than the instructions of both files.
+It is exactly what happened. Two branches were trying to add an `apple.txt` file at once, but there are conflicts inside this file. If we open the file with your favorite editor, you may notice that the file contains something more than the instructions of both files.
 
 ```
 <<<<<<< HEAD
@@ -123,10 +141,11 @@ Step 1. Create a red apple
 >>>>>>> red-apple
 ```
 
+Don't be scared. We will go through this file step by step
+
 The first lines says that everything starting from `<<<<<<< HEAD` till `=======` belongs to one file, and everything after `=======` and until `>>>>>>> red-apple` belongs to the another one.
 
-
-But what does all this mean? This means that during the merge process, when Git tried to automatically merge files (that is exactly what happens under the hood when we write a `git merge` command) and their internals from different branches, it could not decide on its own which change to apply.
+But what does it all mean anywayb ? This means that during the merge process, when Git tried to automatically merge files (that is exactly what happens under the hood when we write a `git merge` command) and their internals from different branches, it could not decide on its own which change to apply.
 
 When Git does not know what changes to apply, he asks a developer to help him. So now, you as a developer must help him to make a decision. It is easier than you may think.
 
@@ -145,13 +164,15 @@ Step 1. Create a green apple
 
 Save changes and close the file.
 
-If we go back and find the message that was shown in the console after CONFLICT arised, you may notice the instructions
+Note, that we also removed all techincal lines, like: `<<<<<<< HEAD`, `=======` and `>>>>>>> red-apple`. They were only needed when resolving merge conflicts and are completely useless after resolving them.
+
+If we go back to the console and find the message that printed a message after CONFLICT arised, you may notice the instructions
 
 ```
 ...; fix conflicts and then commit the result.
 ```
 
-We fixed conflicts. The last step that we need to do is to create a commit
+We fixed conflicts. The last step that we need to do is to commit results.
 
 Let's add an `apple.txt` file to the staged area
 
@@ -171,7 +192,7 @@ It should open a default editor with a predefined message.
 Merge branch 'red-apple'
 ```
 
-We can leave it as is and close the file.
+We can leave it as is. Save and close the file.
 
 Well done! You solved your first conflict!
 

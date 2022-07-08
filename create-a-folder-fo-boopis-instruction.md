@@ -1,4 +1,12 @@
-Create a folder for Boopi’s instructions
+# Create a folder for Boopi’s instructions
+
+Impressions: 4.5/5
+
+Note:
+
+ - Make the interaction with Jessie at the beginning more related to targeted on this chapter
+
+---
 
 
 Woof-woof! Good point, Jessie!

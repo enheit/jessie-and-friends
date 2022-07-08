@@ -1,4 +1,11 @@
-Introduction to Git
+# Introduction to Git
+
+Impression: 4.5/5
+
+Note:
+ - Remove sentences where I promised that we will go through all flows together. It would be much better to say that those flows exist but we will not cover tham.
+
+---
 
 So, what is a Git? 
 

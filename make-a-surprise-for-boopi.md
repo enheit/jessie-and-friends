@@ -207,7 +207,7 @@ Reader, do the last thing that you have to do.
 
 ```
 git merge cake.
-``
+```
 
 This, tsss. HAPPY BIRTHDAY!
 

@@ -1,4 +1,12 @@
-Git installation
+# Git installation
+
+Impressions: 2/5
+
+Note:
+
+ - I suppose, that giving screenshots on how to install Git would be much clear than asking to do it on their own. Also, there are no smooth transitions between chapters. Consider to add them.
+
+---
 
 To start to work with Git we need to install it on our computer. I leave a reference here from which you can install it. The only requirement is that that version should be equal or larger than 2.37.0.
 

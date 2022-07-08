@@ -1,5 +1,13 @@
 
-Select an approach of communicating with Git
+# Select an approach of communicating with Git
+
+Impressions: 4.5/5
+
+Note:
+
+ - I like transition at the end of the chapter. Consider to use this practice in other chapters.
+
+---
 
 Before initializing Git, we need to understand how we will use Git in the future.
 
@@ -10,7 +18,7 @@ There are two approaches to how you can interact with Git:
 
 Git GUI stands for Graphical User Interface, meaning you will interact with Git by using the program interface with buttons, tabs, and other UI elements. The typical GUI looks like this.
 
-[Provide a screenshot with GitHub interface]
+[Provide a screenshot with GitHub Desktop interface]
 
 Git CLI stands for Command Line Interface, meaning you will interact with Git using a console on your computer (PowerShell, Bash, or Terminal).
 

@@ -1,4 +1,13 @@
-Commit changes
+# Commit changes
+
+Impressions: 4/5
+
+Note:
+ - It looks like summary at the end of the chapter is redundant. Consider to move it somewhere else or remove it at all
+
+---
+
+
 
 In the previous chapter, we added `tennis-ball.txt` file to the staged area, thus saying that we are ready to commit it.
 
@@ -38,7 +47,7 @@ It means that we need to provide a review of what we have done. Usually, one lin
 
 So, let's put the cursor on the first line and write the description.
 
-NOTE: Before adding any information I should mention that usually Git uses Vim as a default editor. You would ask me why I have to make attention on it. Because Vim has special unique features. One of those features that you are not able to write text directly. By default, when you open Vim, it goes with `Normal` mode where each key has special meaning. `w` jumps to the start of the word, `e` jumps to the end of the word and `i' is turns `Insert mode`. Insert mode where each key becomes a regular key as we would expect. So let's press it. The `--INSERT--` word should be shown at the left bottom of the screen. After adding the text message below, you need to press `:` and write `wq` (w - write, q - quite) to save changes. 
+NOTE: Before adding any information I should mention that usually Git uses Vim as a default editor. You would ask me why I have to make attention on it. Because Vim has special unique features. One of those features that you are not able to write text directly. By default, when you open Vim, it goes with `Normal` mode where each key has special meaning. `w` jumps to the start of the word, `e` jumps to the end of the word and `i` is turns `Insert mode`. Insert mode where each key becomes a regular key as we would expect. So let's press it. The `--INSERT--` word should be shown at the left bottom of the screen. After adding the text message below, you need to press `:` and write `wq` (w - write, q - quite) to save changes. 
 
 ```
 Add file with instructions of how to create a tennis ball
@@ -56,9 +65,11 @@ It confirms that new commmit was created.
 
 Note: You see that we write it like "add.." not "added…". In general, Git users give a name to a commit in the imperative form to describe what this commit does. For instance, (this commit) "Add new line", (this commit) "Remove the line" or (this commit) "Modify the line". But this is a convention only. You can provide any title you want.
 
-Good. After success, commit git started stores the files that were included in commit inside his own "internals". In our case this is the only `tennis-ball.txt` file.
+Good. 
 
-Oh my gosh… What's going on… Boopi starting to craft something. Woof-woof! Look at Boopi! Woof-Woof! This is a tennis ball! Thank you, Boopi, and Thank you, reader! Now Jessie has a new tennis ball!
+After creating a commit, Git starts to store files that were added to the commit inside his own "internals" (e.g. hidden `.git` folder). In our case this is the only `tennis-ball.txt` file that we added.
+
+Oh my gosh… What's going on… Boopi starting to craft something. Woof-woof! Look at Boopi! Woof-Woof! This is a tennis ball! Thank you, Boopi, and thank you, reader! Now Jessie has a new tennis ball!
 
 Do you like it Jessie? Woof! Aliright!
 

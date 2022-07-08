@@ -1,5 +1,11 @@
-Intializing the Git inside the folder
+# Intializing the Git inside the folder
 
+Impressions: 3/5
+
+Note:
+ - Add more interaction with Jessie
+ - Provide screenshots of initialized git as well as folder structure with hidden `.git` folder. It must improve understanding of what is going on.
+---
 
 When all the bureaucratic steps are done, we can finally initialize the Git inside our folder. To initialize Git inside our folder and make aware of our project, we need to run the next command.
 

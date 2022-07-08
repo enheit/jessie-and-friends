@@ -1,4 +1,13 @@
-Check the state of the folder
+# Check the state of the folder
+
+Impressions: 3/5
+
+Note:
+
+- There is no Jessie interaction
+- Not fun to read. Impovements required
+
+---
 
 I would lie if I said that passing instruction to Boopi would be simple as running a single command. So, it should be easy anyway but requires a few steps to be done before it.
 

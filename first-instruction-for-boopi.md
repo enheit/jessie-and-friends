@@ -1,4 +1,11 @@
-First instruction for Boopi
+# First instruction for Boopi
+
+Impressions: 4.5/5
+
+Note:
+ - Consider to make unified interaction with a reader. Either use `we`, `our`, `ours` or general sentences (w/o subjects).
+
+---
 
 So, it looks like we are inside our reader's folder. Could you explain to us, 
 Jessie, what do we need to do next?
@@ -19,10 +26,12 @@ Boopi understands the simple steps of how to create objects. By reading line by 
 
 Open the file and write the following instructions.
 
+```
 Step 1. Create a rubber ball with a diameter of 6.54 cm
 Step 2. Color it green
 Step 3. Add curved white lines
 Step 4. Craft
+```
 
 Great. Now save the file and close it. Let's see what happens. 
 
@@ -34,7 +43,7 @@ Woof-woof!
 
 Ah, exactly! How could I forget? 
 
-We just created a file inside our folder and named it `tennis-ball.txt` after we added instructions inside this file and saved them. But this file is just a file on our computer and does not differ in any way from other files on our computer.
+We just created a file inside our folder and named it `tennis-ball.txt`. After, we added instructions inside this file and saved them. But this file is just a file on our computer and does not differ in any way from other files on our computer.
 
 Do you remember that Boopi can load instructions only by using Git? It seems like we didn't add Git to our folder. But should we? Yes. As we said earlier, Git is a program that can track files and changes inside those files.   Currently, we have Git installed on our computer, but we didn't ask Git to track files in our folder. By default, installed Git does nothing on a computer until you explicitly ask him to do it.
 

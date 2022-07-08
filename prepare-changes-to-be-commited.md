@@ -1,4 +1,13 @@
-Prepare changes to be committed
+# Prepare changes to be committed
+
+Impressions: 2.5/5
+
+Note:
+
+ - There is a significant jump between the previous chapter and this one. Make it smooth at the beginning.
+ - I have feeling that additional context of what commit is and when it is used must be added. 
+
+---
 
 To ask Git to track our file, we can run the next command.
 

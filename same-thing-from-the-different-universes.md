@@ -100,7 +100,7 @@ Yes, Jessie? Woof-woof! Alright!
 
 If you run the `git status` command and investigate the result message, you may notice that Git says that you have "unmerged paths", and under "Unmerged paths:" message, there is an `apple.txt` file marked as "both added". 
 
-````
+```
 On branch master
 You have unmerged paths.
   (fix conflicts and run "git commit")

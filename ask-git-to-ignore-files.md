@@ -1,6 +1,6 @@
 # Ask Boopi to ignore files
 
-Impressions: 4.5/5
+Impressions: 5/5
 
 Note:
 

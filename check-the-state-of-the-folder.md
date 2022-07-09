@@ -5,17 +5,19 @@ Impressions: 3/5
 Note:
 
 - There is no Jessie interaction
-- Not fun to read. Impovements required
+- Not fun to read. 
 
 ---
 
-I would lie if I said that passing instruction to Boopi would be simple as running a single command. So, it should be easy anyway but requires a few steps to be done before it.
+In the previous chapter we initialized Git inside our project folder, but I would lie if I said that passing instruction to Boopi would be simple as running a single command. So, it should be easy anyway but requires a few steps to be done before it.
 
-Every time you create a file inside a git-aware folder Git does not automatically start to track the file and its internals. Remember when I said Git doesn't do anything without you knowing? Every time you want Git to do something, you must ask him explicitly by running a command that Git can understand.
+Every time you create a file inside a Git-aware folder Git does not automatically start to track the file and its internals. Remember when I said Git doesn't do anything without you knowing? Every time you want Git to do something, you must ask him explicitly by running a command that Git can understand.
 
 One of those commands that Git can understand is `git status`.
 
 Let's run it and after I explain what it does
+
+Open a console and write the following
 
 ```
 git status

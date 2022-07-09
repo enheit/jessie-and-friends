@@ -14,6 +14,6 @@ This is the link to the official download page where you can get the latest vers
 
 https://git-scm.com/downloads
 
-The only thing I can recommend is to always stay with the default installation. Do not change any settings during installation until you know what to do.
+The only thing I can recommend is to always stay with the default installation. Do not change any settings during installation until you know what you are doing.
 
 While you are installing Git, Jessie and I will be waiting for you in the next chapter. Take your time, don't hurry...

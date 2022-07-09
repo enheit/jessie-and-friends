@@ -1,4 +1,4 @@
-Verify Git installation
+# Verify Git installation
 
 Impressions: 4/5
 

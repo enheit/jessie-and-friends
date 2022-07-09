@@ -1,26 +1,31 @@
-# Verify Git installation
+Verify Git installation
 
-Impressions: 3/5
-
-Note:
-
- - Maybe, adding explanation of how to open a console would help newbies to not lost.
- - Missing smooth transition at the end of the chapter
+Impressions: 4/5
 
 ---
 
-Jessie and I expect you to be in the folder where the `tennis-ball.txt` file lives. Then, you need to open a console inside this folder and verify that Git was installed correctly.
+Woof-woof!
 
-Let's run our first git command, which will show you the currently installed version of Git.
+Oh, you're already here. Well done! It means that you installed Git on your computer. But we need to ensure that Git is available inside your console.
+
+I expect that you know what a console is because we will use it through this book very often. Usually, we use a console to execute commands. What commands to execute depends on us. Since we will be working with Git, we will use the commands it provides. Every command is like a button on the interface. Whenever you execute a command, it is something similar to what happens when you click the button on the interface. 
+
+Let's use our first command that shows the version of the installed Git on the computer.
+
+Let's open a console and write our first Git command
 
 ```
 git --version
 ```
 
-If Git was installed correctly, the following message should be shown in your console.
+It should print 
 
 ```
-git version X.YY.Z
+git version 2.37.0
 ```
 
-NOTE: Where X.YY.Z is a version like 2.37.0 or whatever version you installed
+> NOTE: That printed version in your console will be equal to the version you installed on your computer. In my case, the version that is installed on my computer is `2.37.0`. 
+
+If you don't see a similar message in your console, it may mean that Git was not properly installed. Or at least it doesn't work inside a console. Try to restart the console and execute `git --version` command again. If nothing changes, you need to fix this problem before moving to the next chapters.
+
+I hope your installation experience went smoothly and there were no problems. If so, let's move forward

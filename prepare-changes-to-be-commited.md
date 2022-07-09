@@ -1,11 +1,6 @@
 # Prepare changes to be committed
 
-Impressions: 2.5/5
-
-Note:
-
- - There is a significant jump between the previous chapter and this one. Make it smooth at the beginning.
- - I have feeling that additional context of what commit is and when it is used must be added. 
+Impressions: 4/5
 
 ---
 
@@ -26,7 +21,7 @@ Initial commit
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-	newfile.txt
+	tennis-ball.txt
 
 nothing added to commit but untracked files present (use "git add" to track)
 ```
@@ -39,8 +34,7 @@ nothing added to commit but untracked files are present (use "git add" to track)
 
 It says that to make our `git commit` command work, we need to specify what files will be included in this commit.
 
-Well, going forward, a commit is a group of changes (files) that are stored somewhere inside Git. Simply saying, everything we add into a commit will be stored in Git and Git will take care of it (will track it)
-
+But what is a commit? Commit is a group of changes that were added to Git. Simply saying, everything we add into a commit will be stored in Git and Git will take care of it (will start tracking changes of files that you added to a commit).
 
 So, let's add our `tennis-ball.txt` file into a commit.
 
@@ -51,17 +45,19 @@ git add tennis-ball.txt
 
 As you can see, the `git add` command expects the file name that should be added to the commit. 
 
-TIP: `git add` has much more power than specifying a single file name. It also can add multiple files by listing their names via comma or all files with extensions .txt by specifying a pattern (e.g. Git add *.txt)
+TIP: `git add` has much more power than specifying a single file name. It also can add multiple files by listing their names via comma or all files with extensions .txt by specifying a pattern (e.g. `git add *.txt`)
 
 Using the `git add` command, you asked Git to prepare this file to be ready to be committed, but not been committed yet.
 
-Let's see what happened with our project after running `git add tennis-ball.txt`. We will use `git status`
+Let's see what happened with our project after running `git add tennis-ball.txt`. 
+
+To see the current state of the repository we need to run this command
 
 ```
 git status
 ```
 
-It should print something similar to your console.
+It should print something similar to your console
 
 ```
 On branch master
@@ -79,6 +75,8 @@ After adding a `tennis-ball.txt` file into a staged area, Git makes a snapshot o
 
 Let's try to achieve this by opening the `tennig-ball.txt` file and changing the diameter of the ball.
 
+Let's make changes to the first line of the steps we created
+
 ```
 Step 1. Create a rubber ball with a diameter of 6.55 cm
 Step 2. Color it green
@@ -86,7 +84,7 @@ Step 3. Add curved white lines
 Step 4. Craft
 ```
 
-We changed the diameter from 6.54 to 6.55. The changes are minor, but enough for Git to notice them.
+We changed the diameter from `6.54` to `6.55`. The changes are minor, but enough for Git to notice them.
 
 Let's again run the status command and see what it shows to us
 
@@ -111,7 +109,7 @@ Changes not staged for commit:
 	modified:   tennis-ball.txt
 ```
 
-As you can see, Git shows us that some changes will be committed as well as changes that are not staged for commit.
+As you can see, Git is showing us that some modification has happened to our file. 
 
 ```
 Changes to be committed:
@@ -124,7 +122,9 @@ Changes not staged for commit:
 	modified:   tennis-ball.txt
 ```
 
-To see new changes that of increased diameter of the ball we can use another helpfull command called `git diff`. To run it, we need to specify the file on what we want to run this command
+This modification is nothing more than a change in diameter
+
+To confirm our assumptions that these modifications are diameter changes, we can use another useful command called `git diff`. This command requires the name of the file we want to check, so let's specify the following:
 
 ```
 git diff tennis-ball.txt
@@ -133,18 +133,22 @@ git diff tennis-ball.txt
 It should print something like
 
 ```
-diff --git a/ennis-file.txt b/ennis-file.txt
+diff --git a/tennis-ball.txt b/tennis-ball.txt
 index 81d5611..3c89c6c 100644
---- a/tennis-file.txt
-+++ b/ennis-file.txt
+--- a/tennis-ball.txt
++++ b/tennis-ball.txt
 @@ -1 +1 @@
 -Step 1. Create a rubber ball with a diameter of 6.54 cm
 +Step 1. Create a rubber ball with a diameter of 6.55 cm
 ```
 
-As you can see it shows the line that were modified and compare them line by line.
+This printed message has a lot of useful information. Let's go through the most important.
 
-So, At this point we can do few more things. Either include our changes to the commit or discard them. In our case it is not big deal will diameter be 6.54 cm or 6.55 cm. But let's for education purposes discard our changes by running `git restore`
+The first line says that Git is currently comparing two files, or more accurately, the same file but with two different sets of changes. The fifth line shows the summary of how many lines were affected. It says that one line was removed and one line was added. Actually, we only changed 1 character, but Git treats it as entire line change (in this example). Last two lines tagged with `-` and `+` show what changes the file has undergone. It shows exactly what we done, changed the first step and replacing `6.54` with `6.55`.
+
+Cool. This means that Git is doing its job. It tracks changes in our files.
+
+So, at this point we can do few more things. Either include our changes to the commit or discard them. In our case it is not big deal will diameter be 6.54 cm or 6.55 cm. But let's for education purposes discard our changes. The next command will help us to do it
 
 ```
 git restore tennis-ball.txt
@@ -166,4 +170,8 @@ Changes to be committed:
 
 Good job. Modification dissaper. 
 
-In the next section we will make a commit of our staged changes. Let's go!
+As you can see, we can rely on Git and its tracking capabilities. Whenever we want to get some infromation of the current state of the project we can ask Git to provide us this infromation. The more commands we know, the wider the range of interaction with Git.
+
+We made changes to the file and asked Git to show them to make sure that nothing more was changed. And you made sure that everything is exactly right.
+
+So, in the next chapter we will create a commit of our staged changes and finally create a tennis ball for Jessie

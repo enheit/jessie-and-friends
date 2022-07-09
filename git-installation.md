@@ -1,15 +1,19 @@
 # Git installation
 
-Impressions: 2/5
+Impressions: 4/5
 
 Note:
 
- - I suppose, that giving screenshots on how to install Git would be much clear than asking to do it on their own. Also, there are no smooth transitions between chapters. Consider to add them.
-
 ---
 
-To start to work with Git we need to install it on our computer. I leave a reference here from which you can install it. The only requirement is that that version should be equal or larger than 2.37.0.
+As we discussed in the previous chapter, in order to get started with Git, we need to install it on our computer.
+
+Since absolutely any operating system can be installed on your computer (for example, `Window`, `Linux/Unix` or `macOS`), and the installation process is different for each operating system, I hope you can handle this task yourself.
+
+This is the link to the official download page where you can get the latest version of Git
 
 https://git-scm.com/downloads
 
-After installation open your favourite console and write `git —version`. If it prints the message with the git version it means that everything is installed correctly. If not please try to start from the beginning.
+The only thing I can recommend is to always stay with the default installation. Do not change any settings during installation until you know what to do.
+
+While you are installing Git, Jessie and I will be waiting for you in the next chapter. Take your time, don't hurry...

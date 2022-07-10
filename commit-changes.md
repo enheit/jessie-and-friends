@@ -3,7 +3,7 @@
 Impressions: 4/5
 
 Note:
- - It looks like summary at the end of the chapter is redundant. Consider to move it somewhere else or remove it at all
+ - The english should be reviewed of the summary in the end of the chapter
 
 ---
 
@@ -47,7 +47,7 @@ It means that we need to provide a review of what we have done. Usually, one lin
 
 So, let's put the cursor on the first line and write the description.
 
-NOTE: Before adding any information I should mention that usually Git uses Vim as a default editor. You would ask me why I have to make attention on it. Because Vim has special unique features. One of those features that you are not able to write text directly. By default, when you open Vim, it goes with `Normal` mode where each key has special meaning. `w` jumps to the start of the word, `e` jumps to the end of the word and `i` is turns `Insert mode`. Insert mode where each key becomes a regular key as we would expect. So let's press it. The `--INSERT--` word should be shown at the left bottom of the screen. After adding the text message below, you need to press `:` and write `wq` (w - write, q - quite) to save changes. 
+> NOTE: Before adding any information I should mention that usually Git uses Vim as a default editor. You would ask me why I have to make attention on it. Because Vim has special unique features. One of those features that you are not able to write text directly. By default, when you open Vim, it goes with `Normal` mode where each key has special meaning: `w` jumps to the start of the word, `e` jumps to the end of the word and `i` switches to `Insert mode`. `Insert mode` is a mode where each key becomes a regular key as we would expect. So let's press the `i` key on the keyboard. The `--INSERT--` word should be shown at the left bottom of the screen of your editor. After providing a commit description, you need to press `:` and write `wq` (w - write, q - quite) to save changes. 
 
 ```
 Add file with instructions of how to create a tennis ball
@@ -63,18 +63,20 @@ After writing the commit message close the editor. If a commit was created, the 
 
 It confirms that new commmit was created.
 
-Note: You see that we write it like "add.." not "added…". In general, Git users give a name to a commit in the imperative form to describe what this commit does. For instance, (this commit) "Add new line", (this commit) "Remove the line" or (this commit) "Modify the line". But this is a convention only. You can provide any title you want.
-
-Good. 
-
-After creating a commit, Git starts to store files that were added to the commit inside his own "internals" (e.g. hidden `.git` folder). In our case this is the only `tennis-ball.txt` file that we added.
+Once a commit is created, Git starts storing the files added to the commit inside its "internals". By that I mean a hidden `.git` folder that was automatically created during Git initialization. Thus, from now on, the file `tennis-ball.txt` should be tracked by Git, and any future changes should be reflected without adding it to the staged area by using `git add` command.
 
 Oh my gosh… What's going on… Boopi starting to craft something. Woof-woof! Look at Boopi! Woof-Woof! This is a tennis ball! Thank you, Boopi, and thank you, reader! Now Jessie has a new tennis ball!
 
 Do you like it Jessie? Woof! Aliright!
 
-Let's make a quick recap of what we have learned.
+Let's make a quick recap of what we have already learned.
 
-We learned that to start to use git commands inside our folder, we had to intitialize Git first, by usng `git init` command. It created a hidden `.git` folder inside our project folder where Git stores project files and their changes inside it. By default, Git doesn't add these files to the `.git` folder automatically. We need explicitly add them by using `git commit`. Before creating a commit we have to decide what files will be included in the commit and select them by using `git add` command. After we added this file to the staged area. Git created a snapshot of this file and it's internals and does not allow to change it. If we make some changes to our file we need manually to add them by repeating `git add` command. If changes that were made after `git add` has to be removed we can use `git reset` command. And finally when files are ready to be commited we can use `git commit` command which will open a default editor to provide a description of the commit. After creating a message and closing the editor the commit will be added to the Git and our files will be tracked by Git. Even if we remove some internals of the file or remove it at all Git will notice those changes and let us know if we run `git status` command.
+We learned that in order to start using Git commands inside our folder, we first had to initialize Git with the `git init` command. It created a hidden `.git` folder inside our project folder (beside the `tennis-ball.txt` file) where Git stores the information that helps him to keep track our files and their changes.
 
+By default, Git does not automatically add these files to the `.git` folder, so we had to add them explicitly with `git commit`.
 
+Before we created a commit, we had to decide which files should be included in the commit and select them with the `git add` command. After we added the file `tennis-ball.txt` to the prepared area, Git took a snapshot of the file and said that this file is now being tracked by me. After we changed the diameter of the tennis ball inside instructions, Git showed us that some changes were made. We inspected those changes by using `git diff` and discarded them with a `git reset` command.
+
+Finally, when the file was ready to be committed, we used the `git commit` command, which opened the default editor and asked us to provide a description of the current commit. After providing the message and closing the editor, the commit was added to Git and Git started tracking our file. Even if we delete some of the internal parts of the file in the future, or delete it altogether, Git will notice those changes and let us know but only when we run the `git status` command.
+
+Well done reader, looks like we did what we wanted. But this is not the end, let's see what else awaits us in the next chapters

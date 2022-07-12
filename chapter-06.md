@@ -1,6 +1,6 @@
 # Chapter 6: The first instruction for Boopi
 
-![Boopi is reading instruction](./images/chapter-6.jpeg)
+![Boopi is reading instruction](./images/chapter-06.jpeg)
 
 So, it looks like we are inside the newly created folder. Could you explain to us, Jessie, what do we need to do next?
 

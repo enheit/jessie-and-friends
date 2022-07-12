@@ -1,6 +1,6 @@
 # Chapter 4: Verify Git installation
 
-![Search for Git with a magnifying glass](./images/chapter-4.jpeg)
+![Search for Git with a magnifying glass](./images/chapter-04.jpeg)
 
 Woof-woof!
 

@@ -1,6 +1,6 @@
 # Chapter 7: Initializing the Git inside the folder
 
-![Git logo with arrows pointing inside a folder](./images/chapter-7.jpeg)
+![Git logo with arrows pointing inside a folder](./images/chapter-07.jpeg)
 
 In the previous chapter, we created a `tennis-ball.txt` file, but unfortunately, it wasn’t enough to let Boopi start to craft it. As I said, we need to initialize the Git inside our folder. To initialize Git inside our folder and make aware of our project, we must open the console in the same place where our `tennis-ball.txt` file is located and run the next command.
 

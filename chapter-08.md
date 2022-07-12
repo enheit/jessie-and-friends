@@ -1,6 +1,6 @@
 # Chapter 8: Check the state of the folder
 
-![Jessie looks at the folder through the x-ray and see the Git logo inside](./images/chapter-8.jpeg)
+![Jessie looks at the folder through the x-ray and see the Git logo inside](./images/chapter-08.jpeg)
 
 In the previous chapter we initialized Git inside our project folder, but I would lie if I said that passing instructions to Boopi would be simple as running a single command. So, it should be easy anyway but requires a few steps to be done before it.
 

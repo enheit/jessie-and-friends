@@ -1,6 +1,6 @@
 # Chapter 3: Git installation
 
-![The process of installing Git on a computer](./images/chapter-3.jpeg)
+![The process of installing Git on a computer](./images/chapter-03.jpeg)
 
 As we discussed in the previous chapter, in order to get started with Git, we need to install it on our computer.
 

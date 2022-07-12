@@ -1,6 +1,6 @@
 # Chapter 5: Create a folder for Boopi’s instructions
 
-![Files with arrows pointing inside a folder](./images/chapter-5.jpeg)
+![Files with arrows pointing inside a folder](./images/chapter-05.jpeg)
 
 Yes, it took some time to get Git ready for use on our computer. But it can not but rejoice that this process needs to be done only once.
 

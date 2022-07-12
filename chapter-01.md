@@ -1,6 +1,6 @@
 # Chapter 1: Acquaintance with Jessie and Boopi
 
-![Image of Jessie and Boopi](./images/chapter-1.jpeg)
+![Image of Jessie and Boopi](./images/chapter-01.jpeg)
 
 In the everyday world, pets are an integral part of our lives. They help us cope with difficulties and support us in difficult situations as much as they can. When we are sad, they are sad with us, when we are happy, they are happy too. This unspoken love can never disappear between us.
 

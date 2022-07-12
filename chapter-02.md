@@ -1,6 +1,6 @@
 # Chapter 2: The way Boopi reads instructions
 
-![Boopi explains to Jessie how he reads instructions](./images/chapter-2.jpeg)
+![Boopi explains to Jessie how he reads instructions](./images/chapter-02.jpeg)
 
 I’m glad you agreed to help us to create another tennis ball for Jessie. As we mentioned earlier, Boopi can only craft things if we give him instructions. So, what are the instructions and how to provide them to Boopi? Good questions.
 

@@ -28,6 +28,8 @@ Together with Jessie and her friends, you will learn the basics of Git. Using yo
 
 # Download it
 
-- epub
+<a id="raw-url" href="https://github.com/enheit/jessie-and-friends/tree/master/downloads/jessie-and-friends.epub">epub</a>
+
+- [epub](https://github.com/enheit/jessie-and-friends/tree/master/downloads/jessie-and-friends.epub)
 - pdf
 - mobi

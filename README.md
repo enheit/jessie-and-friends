@@ -18,7 +18,7 @@ Together with Jessie and her friends, you will learn the basics of Git. Using yo
 7. [Initializing the Git inside the folder](./chapter-07.md)
 8. [Check the state of the folder](./chapter-08.md)
 9. [Prepare changes to be committed](./chapter-09.md)
-10. Commit changes
+10. [Commit changes](./chapter-10.md)
 11. Create toys for Jessie’s friends in different branches
 12. Same things from different universes
 13. Fixing the Boopi that was accidentally broken

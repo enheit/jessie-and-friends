@@ -20,7 +20,7 @@ Together with Jessie and her friends, you will learn the basics of Git. Using yo
 9. [Prepare changes to be committed](./chapter-09.md)
 10. [Commit changes](./chapter-10.md)
 11. [Create toys for Jessie’s friends in different branches](./chapter-11.md)
-12. Same things from different universes
+12. [Same things from different universes](./chapter-12.md)
 13. Fixing the Boopi that was accidentally broken
 14. Ask Git to ignore files
 15. Make a surprise for Boopi

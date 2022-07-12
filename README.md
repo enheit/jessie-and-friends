@@ -22,7 +22,7 @@ Together with Jessie and her friends, you will learn the basics of Git. Using yo
 11. [Create toys for Jessie’s friends in different branches](./chapter-11.md)
 12. [Same things from different universes](./chapter-12.md)
 13. [Fixing the Boopi that was accidentally broken](./chapter-13.md)
-14. Ask Git to ignore files
+14. [Ask Git to ignore files](./chapter-14.md)
 15. Make a surprise for Boopi
 16. [Last words](./chapter-16.md)
 

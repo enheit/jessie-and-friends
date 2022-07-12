@@ -31,3 +31,7 @@ Together with Jessie and her friends, you will learn the basics of Git. Using yo
 - epub
 - pdf
 - mobi
+
+# License
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).

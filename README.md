@@ -24,7 +24,7 @@ Together with Jessie and her friends, you will learn the basics of Git. Using yo
 13. Fixing the Boopi that was accidentally broken
 14. Ask Git to ignore files
 15. Make a surprise for Boopi
-16. Last words
+16. [Last words](./chapter-16.md)
 
 # Download it
 

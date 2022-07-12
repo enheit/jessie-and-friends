@@ -1,5 +1,7 @@
 # Chapter 9: Prepare changes to be committed
 
+![Boopi washes files while Jesse sleeps behind](./images/chapter-9.jpeg)
+
 To ask Git to track our file, we can run the next command.
 
 ```

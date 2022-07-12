@@ -28,9 +28,11 @@ Together with Jessie and her friends, you will learn the basics of Git. Using yo
 
 # Download it
 
-- epub
-- pdf
-- mobi
+- [epub](https://github.com/enheit/jessie-and-friends/releases/download/v1.0.0/jessie-and-friends.epub)
+- [pdf](https://github.com/enheit/jessie-and-friends/releases/download/v1.0.0/jessie-and-friends.pdf)
+- [mobi](https://github.com/enheit/jessie-and-friends/releases/download/v1.0.0/jessie-and-friends.mobi)
+
+Or find the download links inside a [latest release](https://github.com/enheit/jessie-and-friends/releases)
 
 # License
 

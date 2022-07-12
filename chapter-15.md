@@ -248,7 +248,7 @@ We will skip the second line, and on the third, we will put our congratulations 
 Happy birthday! We hope all your birthday wishes and dreams come true
 
 Sincerely,
-Jessie, Thomas, Reader, Athor and others
+Jessie, Thomas, Reader, Author and others
 ```
 
 The full commit message should look like this
@@ -259,7 +259,7 @@ Surprise!
 Happy birthday! We hope all your birthday wishes and dreams come true
 
 Sincerely,
-Jessie, Thomas, Reader, Athor and others
+Jessie, Thomas, Reader, Author and others
 ```
 
 Okay, save changes and close the file.

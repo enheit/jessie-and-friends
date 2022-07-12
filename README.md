@@ -13,7 +13,7 @@ Together with Jessie and her friends, you will learn the basics of Git. Using yo
 2. [The way Boopi reads instructions](./chapter-02.md)
 3. [Git installation](./chapter-03.md)
 4. [Verify Git installation](./chapter-04.md)
-5. Create a folder for Boopi’s instructions
+5. [Create a folder for Boopi’s instructions](./chapter-05.md)
 6. The first instruction for Boopi
 7. Initializing the Git inside the folder
 8. Check the state of the folder

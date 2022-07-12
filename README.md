@@ -10,7 +10,7 @@ Together with Jessie and her friends, you will learn the basics of Git. Using yo
 # Table of content
 
 1. [Acquaintance with Jessie and Boopi](./chapter-01.md)
-2. The way Boopi reads instructions
+2. [The way Boopi reads instructions](./chapter-02.md)
 3. Git installation
 4. Verify Git installation
 5. Create a folder for Boopi’s instructions
